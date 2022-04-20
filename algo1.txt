@@ -1,0 +1,22 @@
+ALGORITHM My name is sana.
+VAR
+    numCharacter:= integer
+    sum: integer:=0
+    numWords:= integer
+    sum: integer:=0
+    numVowels:= integer
+    sum: integer:=0
+BEGIN
+    if (numVowels == 'a' || numVowels == 'e' || numVowels == 'i' || numVowels == 'o' || numVowels == 'u') {
+        ++vowels;
+    }
+    else if (numWords == ' ') {
+        ++spaces+1;
+    }
+    else if ((numCharacter >= 'a' && numCharacter <= 'z')) {
+        ++consonants;
+    }
+    return.println("Vowels: " + numVowels);
+    return.println("Words: " + numWords);
+    return.println("Characters: " + numCharacter);
+END
